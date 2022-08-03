@@ -4,6 +4,7 @@
   max-height:auto;
   box-sizing: border-box;
   padding: 20px;
+  /* display: block; */
 }
 
 .sidebar {
@@ -20,14 +21,13 @@
 }
 
 img.Destination {
-  float: right;
   margin:auto;
-  width: 30%;
-  height:auto; 
+  width: 50%;
+  height:auto;
+  display: block; 
 }
 
-p.Destination {
-  float: right;
+.Destination {
   margin: auto;
   width: 50%;
   height: auto;
@@ -36,12 +36,15 @@ p.Destination {
   padding: 10px;
   font-size: xx-large;
   font-family: monospace; 
+  display: block;
 }
 .dates {
   font-weight: bolder;
   font-style: normal;
+  display: block;
 }
 
 body {
   background-color: goldenrod;
+  display: block;
 }
