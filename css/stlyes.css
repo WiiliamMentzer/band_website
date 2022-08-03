@@ -2,6 +2,7 @@
   float: left;
   max-width:100%;
   max-height:auto;
+  box-sizing: border-box;
 }
 
 .sidebar {
@@ -9,13 +10,20 @@
   font-family: 'Comic Sans MS';
   font-style: italic;
   float: left;
-  width: 200px;
+  width: 260px;
+  border: solid gray;
+  border-width: 20px;
+  padding: 6px;
+  box-sizing: border-box;
+  background-color: aliceblue;
 }
 
-.Destination{
+.Destination {
   float: right;
   color:purple;
+  box-sizing: border-box;
 }
-body{
+
+body {
   background-color: goldenrod;
 }
