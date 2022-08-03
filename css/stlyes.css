@@ -19,15 +19,27 @@
   background-color: aliceblue;
 }
 
-.Destination {
+img.Destination {
   float: right;
+  margin:auto;
+  width: 30%;
+  height:auto; 
+}
+
+p.Destination {
+  float: right;
+  margin: auto;
+  width: 50%;
+  height: auto;
   color:purple;
   box-sizing: border-box;
   padding: 10px;
+  font-size: xx-large;
+  font-family: monospace; 
 }
-
 .dates {
-
+  font-weight: bolder;
+  font-style: normal;
 }
 
 body {
