@@ -1,10 +1,9 @@
 .logo {
-  float: left;
+  /* float: left; */
   max-width:100%;
   max-height:auto;
   box-sizing: border-box;
   padding: 20px;
-  /* display: block; */
 }
 
 .sidebar {
